@@ -18,6 +18,7 @@ public class UserController {
 	@RequestMapping("/processadduser.do")
 	public String processAddUser(@ModelAttribute("user") UserVo user){
 		System.out.println("The first name "+user.getFirstName());
+		System.out.println("Last Name");
 			
 		//1)Capturing the data
 		//2)Processing
